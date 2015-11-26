@@ -57,16 +57,15 @@ grails.project.dependency.resolution = {
 
     plugins {
         // plugins for the build system only
-        build ":tomcat:7.0.55"
+        build ":tomcat:7.0.55.3" // or ":tomcat:8.0.22"
 
         // plugins for the compile step
         compile ":scaffolding:2.1.2"
-        compile ':cache:1.1.7'
-        compile ":asset-pipeline:1.9.6"
+        compile ':cache:1.1.8'
+        compile ":asset-pipeline:2.2.3"
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate:3.6.10.17"
-        runtime ":database-migration:1.4.0"
+        runtime ":hibernate:3.6.10.18"
         runtime ":jquery:1.11.1"
 
         //camunda plugin
